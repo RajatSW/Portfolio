@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/63e4040fc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <!--logo-->
+        <div class="nav_bar">
+            <a><span class="logo nav_logo">R</span>Rajat</a>
+            <div class="nav__menu__btn menu__btn">
+            </div>
+        </div>
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <p>Front-End Web Dev</p>
+        <p>Data Science</p>
+        <p>Graphic Design</p>
+        <h1>Hi, i'm <span>Rajat Waldia</span><br>
+             from India</h1>
+    </div>
+</div>
+    </div>
+    <!----------About----------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/mypic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Motivated and detail-oriented aspiring developer with a strong foundation in HTML, CSS, JavaScript, and Python, and a growing passion for data science. Adept at building responsive web interfaces and writing clean, efficient code. Eager to leverage programming skills to uncover insights from data and build intelligent solutions. Known for a curious mind, fast learning ability, and a drive to explore the intersection of software and data. Actively expanding knowledge in machine learning, data analysis, and data visualization.
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certirfications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Web Developer</span><br>UI, HTML, CSS, JavaScript</li>
+                            <li><span>Framework</span><br>BootStrap, Tailwind CSS, </li>
+                            <li><span>Python programming</span><br>DSA, Pandas, Numpy, Matplotlib, Data Science</li>
+                            <li><span>WordPress</span><br>WordPress Plugins</li>
+                            <li><span>Content Writing</span><br>Blog Writing, Content Writing, Creative Writing , Email Writing, Social Media</li>
+                            <li><span>Graphic Design</span><br>Figma, Canva, Adobe Photoshop, UI</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Data Visualization Intern (Virtual Experience)</span><br>Forage(Tata Group) Jan 2025<br>Completed a virtual Data Visualization internship with Forage in collaboration with Tata Group. <br> Gained hands-on experience in framing business problems, choosing suitable visualizations, and creating impactful visuals. Strengthened skills in communicating insights and transforming complex data into actionable business decisions.</li> <a href="Images/data vis.png" target="_blank">
+                            <img src="Images/data vis.png" alt="Tata Certificate" width="150">
+                            </a>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> <strong>Graduation(2022-2025)</strong></span><br>Bachelor of Computer Applications (BCA) from IMED(BVDU), Pune, Maharashtra <br>CGPA: 8.16</li>
+                            <li><span>12th Grade</span><br>KV CME Pune, Maharashtra</li>
+                            <li><span>10th Grade</span><br>Army Public School Chandimandir, Chandigarh</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certirfications">
+                        <ul>
+                            <li><span><strong>1. Learning Data Analytics: 1 Foundations</strong></span><br>LinkedIn Learning<br><a href="Images/analysis.png" target="_blank">
+                            <img src="Images/analysis.png" alt="Tata Certificate" width="150">
+                            </a>
+                            <li><span><strong>2. Introduction to Python</strong></span><br>Infosys Springboard<br><a href="Images/python.png" target="_blank">
+                            <img src="Images/python.png" alt="Tata Certificate" width="150">
+                            </a></li>
+                            <li><span><strong>3. Statistics Essentials for Analysis-Beginners</strong></span><br>EDUCBA<br><a href="Images/ststistic.png" target="_blank">
+                            <img src="Images/ststistic.png" alt="Tata Certificate" width="150">
+                            </a></li>
+                            <li><span><strong>4. JAVA</strong></span><br>EDUCBA<br><a href="Images/java.png" target="_blank">
+                            <img src="Images/java.png" alt="Tata Certificate" width="150">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Crafting fast, responsive, and modern websites from scratch using the latest web technologies. I build user-friendly interfaces and robust backends to bring your digital vision to life.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Programming</h2>
+                <p>Developing clean and scalable Python-based applications — from automation scripts to backend systems — to solve real-world problems efficiently and elegantly.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-wordpress"></i>
+                <h2>WordPress</h2>
+                <p>Custom WordPress solutions tailored for your business needs — from theme customization to full website setup, I deliver easy-to-manage, SEO-friendly sites that look great and perform even better.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Graphic Design</h2>
+                <p>We bring your ideas to life with stunning visuals! From logos and branding to social media creatives, posters, and UI mockups, our designs are crafted to capture attention and communicate clearly. Whether you're building a brand or boosting engagement, we design with purpose and style.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------MY WORK----------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/solar.png">
+                <div class="layer">
+                    <h3>Solar System CSS</h3>
+                    <p>A simple animated model of the solar system using only HTML and CSS. Features orbiting planets and a central sun with smooth CSS animations.Want it even tweet-sized? Let me know! 🌍✨.</p>
+                    <a href="https://rajatsw.github.io/solar_system_css/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/travell.png">
+                <div class="layer">
+                    <h3>Globetrotters 🌏 – Tourism Website </h3>
+                    <p>A modern and responsive travel website designed to inspire global exploration. It showcases destinations, travel guides, and stunning visuals with a sleek user interface.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/photogimg.png">
+                <div class="layer">
+                    <h3>PhotoGrapher's Resume</h3>
+                    <p>A sleek photography portfolio website that highlights stunning images with a clean, modern layout. Built for showcasing visual storytelling with responsive design.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/RajatSW" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------Contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>rajatwaldia18@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8459380516</p>
+                <div class="social-icons">
+
+                    <!-- <a href="LINK"><i class="fa-brands fa-instagram"></i></a> -->
+                     <!-- <a href="LINK"><i class="fa-brands fa-code"></i></a> -->
+
+                    <!-- <a href="LINK" target="_blank">
+                    <img src="Images/leet_code.png" alt="LeetCode" width="32" height="32" style="vertical-align: -4px;">
+                    </a> -->
+
+                    <a href="https://github.com/RajatSW"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bh2x9%2FAYVSJu0NBtfvIP9mA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                    <a href="CV.pdf" class="btn btn2" download class="resume-box">Download CV</a>
+            </div>
+            <div class="contact-rigth">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Enter Your Full Name" required>
+                <input type="text" name="Email" placeholder="abcd123@gmail.com" required>
+                <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Rajat. Made with <i class="fa-solid fa-heart"></i>,terms and conditions</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxmdobXwZ7GISKyRi_ezl3tyN1IGHRWEjFgkDu5eet68CZqzasjHbui0au5IsFYYWVKow/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset() 
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>
