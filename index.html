@@ -20,13 +20,15 @@
             <div class="nav__menu__btn menu__btn">
             </div>
         </div>
-        <ul>
+        <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#services">Service</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
         </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
     </nav>
     <div class="header-text">
         <p>Front-End Web Dev</p>
@@ -220,6 +222,17 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
     </script>
+    <script>
+
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+  </script>
 </body>
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxmdobXwZ7GISKyRi_ezl3tyN1IGHRWEjFgkDu5eet68CZqzasjHbui0au5IsFYYWVKow/exec'
