@@ -191,7 +191,7 @@ tab-links.active-link::after{
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -413,6 +413,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
