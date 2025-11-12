@@ -174,7 +174,7 @@ tab-links.active-link::after{
 .services-list div{
     background: #262626 ;
     padding: 40px;
-    font-size: 18px;
+    font-size: 15px;
     font-style: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -413,6 +413,7 @@ nav .fas{
     display: block;
 
 }
+
 
 
 
