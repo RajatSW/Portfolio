@@ -12,7 +12,7 @@ I'm currently open to exciting opportunities in **front-end development**, **web
 
 With a strong foundation in **HTML, CSS, JavaScript, and Python**, I'm passionate about building beautiful, user-friendly digital experiences — whether it's an elegant website, a striking visual, or a data-driven web app.
 
-I'm also deeply curious about the world of **data science** — from wrangling messy datasets to discovering patterns and telling stories through clean, interactive visualizations.
+I'm also deeply curious about the world of **Data Science** and **Data Analysis** — from wrangling messy datasets to discovering patterns and telling stories through clean, interactive visualizations.
 
 Whether you're looking for a **pixel-perfect UI/UX enthusiast**, a **creative problem-solver**, or someone who **learns fast and works smart** — let’s connect!
 
